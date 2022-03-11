@@ -4,7 +4,7 @@
 
 [Keylogger source code in Python](https://www.thepythoncode.com/article/write-a-keylogger-python)
 
-[Stealing Passwords From Windows Using a Remote Keylogger](https://www.youtube.com/watch?v=oM-kKk5RXeo)
+[Example: Stealing Passwords From Windows Using a Remote Keylogger](https://www.youtube.com/watch?v=oM-kKk5RXeo)
 
 ## What is Keylogger?
 Keylogger is a type of hacker software tool which could record keystrokes made by a user.[^1] Usually, the hacker implements the keyboard monitoring by using the Trojan program. The software keylogger is a computer program designed to record any input from the keyboard. Also, the keyloggers target the programs installed on a computer, smartphone, and electronic devices that require a password. 
@@ -22,7 +22,7 @@ Keylogger can be installed as software or hardware. If it is installed as softwa
 ## Can keyloggers be detected?
 Users are typically unaware that their keystrokes are being tracked since keyloggers are discretely installed along with a legitimate program and it's very difficult to know if there is a keylogger trojan installed on your computer. The easiest way to detect a keylogger is to use the help of security software and run a virus scan on your computer. Some ways to avoid the malicious attacks of keyloggers are to enable two-factor authentication, use a password manager, install antivirus software and avoid downloading unknown files.  
 
-## How do keyloggers steal information?
+## How do keyloggers steal information?[^3]
 ### 1. API-based keyloggers
 API based keyloggers register input from the keyboard as a normal part of an application instead of malware since these types of keyloggers allow for communication between software and hardware. Each instance a user presses and releases a key, the API-based keylogger records the information and exfiltrates the data. 
 
@@ -49,3 +49,4 @@ In general, Keylogger can improve productivity by making employees concentrate o
 ## References
 [^1]: https://en.wikipedia.org/wiki/Keystroke_logging
 [^2]: https://www.researchgate.net/figure/Shows-how-Keyboard-works_fig1_309230926
+[^3]: https://softwarelab.org/what-is-a-keylogger/
