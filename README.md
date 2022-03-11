@@ -17,7 +17,7 @@ In systems, when a key on the keyboard is pressed, the keyboard converts it into
 The flow chart of Keylogger:
 ![alt text](https://github.com/Fashion-Man/ECE-9609-9069-Introduction-to-Hacking/blob/main/Shows-how-Keyboard-works.png)[^2]
 
-## Implement in python
+## Implement in Python
 In order to represent Keylogger, we need to create a class. 
 ```python
 class Keylogger:
