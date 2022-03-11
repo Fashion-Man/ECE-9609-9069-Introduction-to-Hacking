@@ -14,7 +14,26 @@ Typically, a keylogger consists of three main parts: Control program: Used to mo
 ## How it does it
 In systems, when a key on the keyboard is pressed, the keyboard converts it into a signal and transmits it to the CPU. The CPU passes it to the operating system for the operating system to translate into letters or numbers for use by itself or other programs. But when there is a keylogger in that system, not only the OS is monitored, but also the hook file/monitor that the keylogger monitors records and translates the signals written to the log file. It can also track screen and mouse movements.
 
+The flow chart of Keylogger:
 ![alt text](https://github.com/Fashion-Man/ECE-9609-9069-Introduction-to-Hacking/blob/main/Shows-how-Keyboard-works.png)[^2]
+
+## Implement in python
+In order to represent Keylogger, we need to create a class. 
+```python
+class Keylogger:
+    def __init__(self, interval, report_method="email"):
+        # we gonna pass SEND_REPORT_EVERY to interval
+        self.interval = interval
+        self.report_method = report_method
+        # this is the string variable that contains the log of all 
+        # the keystrokes within `self.interval`
+        self.log = ""
+        # record start & end datetimes
+        self.start_dt = datetime.now()
+        self.end_dt = datetime.now()
+```
+This is a sample Keylogger class. The keylog files will be sent to keylogger user by email. The details of Keylogger code can be find here [^4].
+
 
 ## How Keylogger is installed
 Keylogger can be installed as software or hardware. If it is installed as software, it can be downloaded then installed, but it must stay hidden so that users do not alter the application. If it is installed as hardware, it must be an adapter between the keyboard plug and the computer port for the keyboard. It would be good to have a flagging technique if someone removes the device.
@@ -50,3 +69,4 @@ In general, Keylogger can improve productivity by making employees concentrate o
 [^1]: https://en.wikipedia.org/wiki/Keystroke_logging
 [^2]: https://www.researchgate.net/figure/Shows-how-Keyboard-works_fig1_309230926
 [^3]: https://softwarelab.org/what-is-a-keylogger/
+[^4]: https://www.thepythoncode.com/article/write-a-keylogger-python
