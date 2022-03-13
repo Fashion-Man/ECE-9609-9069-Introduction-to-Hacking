@@ -70,3 +70,5 @@ In general, Keylogger can improve productivity by making employees concentrate o
 [^2]: https://www.researchgate.net/figure/Shows-how-Keyboard-works_fig1_309230926
 [^3]: https://softwarelab.org/what-is-a-keylogger/
 [^4]: https://www.thepythoncode.com/article/write-a-keylogger-python
+[^5]: https://news.trendmicro.com/2021/12/28/what-is-a-keylogger-and-how-to-detect-one/
+[^6]: https://www.csoonline.com/article/2112405/how-keylogging-malware-steals-your-information--includes-video-.html
